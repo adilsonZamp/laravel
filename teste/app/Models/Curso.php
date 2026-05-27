@@ -8,5 +8,8 @@ class Curso extends Model
 {
     //trocar o nome que busca no banco
     // protected $table = 'curso';
-    
+    public function displina()
+    {
+        return $this->hasMany(Displina::class);
+    }
 }

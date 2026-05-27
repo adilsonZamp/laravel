@@ -28,4 +28,6 @@
         </tbody>
     </table>
     <a href="{{route('curso.create')}}">Novo Curso</a>
+    <br>
+    <a href="{{ route('home') }}">Voltar para Home</a>
 </div>
